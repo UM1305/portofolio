@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio/static/css/main.a41653f0.css",
-    "main.js": "/portofolio/static/js/main.09d413e9.js",
+    "main.js": "/portofolio/static/js/main.adc73db3.js",
     "static/js/415.4d6acbeb.chunk.js": "/portofolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portofolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaf.png": "/portofolio/static/media/leaf.ff2616f664c8c0ceab91.png",
@@ -11,7 +11,7 @@
     "static/media/gym.png": "/portofolio/static/media/gym.4b69a53cebdf057cc0e7.png",
     "static/media/home-main.svg": "/portofolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/portofolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/UmapathyM_Resume.pdf": "/portofolio/static/media/UmapathyM_Resume.90bdfaa88a9ea45771a0.pdf",
+    "static/media/Umapathy_Resume.pdf": "/portofolio/static/media/Umapathy_Resume.db4c46abce9232a0939d.pdf",
     "static/media/home-bg.jpg": "/portofolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/purple-banner.png": "/portofolio/static/media/purple-banner.90e7fd04362e18d703bc.png",
     "static/media/payroll.png": "/portofolio/static/media/payroll.295fc078e7d618a34899.png",
@@ -19,12 +19,12 @@
     "static/media/pre.svg": "/portofolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portofolio/index.html",
     "main.a41653f0.css.map": "/portofolio/static/css/main.a41653f0.css.map",
-    "main.09d413e9.js.map": "/portofolio/static/js/main.09d413e9.js.map",
+    "main.adc73db3.js.map": "/portofolio/static/js/main.adc73db3.js.map",
     "415.4d6acbeb.chunk.js.map": "/portofolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portofolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a41653f0.css",
-    "static/js/main.09d413e9.js"
+    "static/js/main.adc73db3.js"
   ]
 }
