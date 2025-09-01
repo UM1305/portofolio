@@ -59,12 +59,12 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          {/* <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
-            <ul className="home-about-social-links">
+            <ul className="home-about-social-links"> */}
               {/* <li className="social-icons">
                 <a
                   href="https://github.com/soumyajit4419"
@@ -85,7 +85,9 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li> */}
-              <li className="social-icons">
+
+              {/* Contact Start*/}
+              {/* <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/umapathy-m-334530261/"
                   target="_blank"
@@ -104,9 +106,10 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
-            </ul>
-          </Col>
+              </li> */}
+                  {/* Contact End */}
+            {/* </ul> */}
+          {/* </Col> */}
         </Row>
       </Container>
     </Container>

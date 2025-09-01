@@ -16,6 +16,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import FollowCursor from "./components/FollowCursor/FollowCursor";
+import RainbowCursor from "./components/RainbowCursor/RainbowCursor";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,6 +44,8 @@ function App() {
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
+        <FollowCursor/>
+        {/* <RainbowCursor/> */}
       </div>
     </Router>
   );
