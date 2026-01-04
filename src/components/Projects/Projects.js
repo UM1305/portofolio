@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import cx from "../../Assets/Projects/cx.jpg";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import marriagehall from "../../Assets/Projects/marriage.png";
@@ -21,6 +21,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cx} // replace with your CX project image
+              isBlog={false}
+              title="Customer Experience Platform"
+              description="Working on a CX-driven application at Hubino using Angular, Node.js, and TypeScript to enhance customer communication, automation, and operational efficiency. Built RESTful APIs, microservices, and integrations with Twilio and Flowise for intelligent workflows."
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -52,6 +62,13 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
+          </Col>
+          <Col md={4} className="project-card">
+       
+          </Col>
+          
+          <Col md={4} className="project-card">
+          
           </Col>
           
           <Col md={4} className="project-card">

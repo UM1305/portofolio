@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";    
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
@@ -10,6 +10,7 @@ import {
   DiGit,
   DiJava,
   DiAngularSimple,
+  DiMysql,
 } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import {
@@ -20,10 +21,12 @@ import {
   SiPostgresql,
   SiMicrosoftsqlserver,
   SiTypescript,
+  SiExpress,
+  SiMaterialdesign,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
-function Techstack() {
+function Techstack() {  
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
@@ -31,6 +34,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaNodeJs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftsqlserver />

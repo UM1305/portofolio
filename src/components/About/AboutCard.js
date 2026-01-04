@@ -7,33 +7,26 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Umapathy </span>
-            from <span className="purple"> Chennai, India.</span>
-            <br />
-            I am currently working as a <span className="purple">Software Developer</span> at Icomm Technologies.
-            <br />
-            I have completed my <span className="purple">MCA</span> from Ayya Nadar Janaki Ammal college.
+           <p style={{ textAlign: "justify" }}>
+            Hi Everyone, I am <span className="purple">Umapathy</span> from{" "}
+            <span className="purple">Chennai, India</span>.
             <br />
             <br />
-            {/* Apart from coding, some other activities that I love to do! */}
+            I am currently working as a{" "}
+            <span className="purple">Software Developer</span> at{" "}
+            <span className="purple">Hubino</span>, where I build scalable and
+            customer-focused web applications.
+            <br />
+            <br />
+            My work involves developing responsive user interfaces using{" "}
+            <span className="purple">Angular</span>, implementing secure backend
+            services with <span className="purple">Node.js</span>, and designing{" "}
+            <span className="purple">RESTful APIs</span>.
+            <br />
+            <br />
+            I have completed my <span className="purple">MCA</span> from{" "}
+            <span className="purple">Ayya Nadar Janaki Ammal College</span>.
           </p>
-          {/* <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul> */}
-{/* 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

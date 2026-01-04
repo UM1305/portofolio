@@ -24,7 +24,7 @@ function App() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      upadateLoad(false); 
     }, 1200);
 
     return () => clearTimeout(timer);
@@ -44,7 +44,7 @@ function App() {
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
-        <FollowCursor/>
+        {/* <FollowCursor/> */}
         {/* <RainbowCursor/> */}
       </div>
     </Router>
